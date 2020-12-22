@@ -1,0 +1,15 @@
+Tutorial on how to play;
+ The first player and computer have a toss in which the player has to choose whether he likes odd or even.
+ Then each player and computer pick a number from 0 to 6 (both inclusive) 
+ If the sum of the chosen numbers is the same as the player's choice of toss, then the player gets to choose between either score or defend
+ The scorer tries to gain as much as points as possible, and the defender attempts to find the scorers gameplan and tries to take his wicket
+ if the defender manages to take the wicket, then the roles are reversed
+ The game ends if the second scorer manages to beat the score of his predecessor or if the second defender manages to take his wicket before he does so
+ Scoring and Taking wicket
+ -------------------------
+ The players will be prompted to chose a number from 0 to 6, both inclusive for each round
+ if the numbers are equal, the wicket is taken by the defender, and roles are switched(if it was the first stage)
+ if numbers are not equal, then the number shown by the scorer is added to his point
+ if the scorer chose zero and the defender some non zero number, then the defender's number will be added to the scorer's score
+ if the defender chose zero, then play continues without any event provided the scorer had chosen a non zero number
+ Press enter to return to the menu
